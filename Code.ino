@@ -1,8 +1,6 @@
-// C++ code
-//
 void setup()
 {
-  pinMode(2, INPUT);
+  pinMode(2, INPUT); //PIR input
   pinMode(0, OUTPUT);
   pinMode(1, OUTPUT);
 }
@@ -16,5 +14,4 @@ void loop()
     digitalWrite(1, HIGH);
     digitalWrite(0, LOW);
   }
-  delay(10); // Delay a little bit to improve simulation performance
 }
